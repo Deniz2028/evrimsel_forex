@@ -1,0 +1,241 @@
+{
+  "experiment_id": "20250804_214018",
+  "timestamp": "2025-08-04T21:40:18.449518",
+  "total_experiments": 4,
+  "successful_experiments": 4,
+  "top_n_count": 4,
+  "fitness_statistics": {
+    "best": -1.0,
+    "worst": -1.0,
+    "mean": -1.0,
+    "std": 0.0,
+    "median": -1.0
+  },
+  "training_time_statistics": {
+    "total_hours": 9.022613366444906e-05,
+    "avg_minutes": 0.001353392004966736,
+    "min_seconds": 0.05351090431213379,
+    "max_seconds": 0.10983395576477051
+  },
+  "best_result": {
+    "config_id": "config_000_run_0",
+    "fitness": -1.0,
+    "validation_fitness": -0.9,
+    "neat_config": {
+      "population_size": 10,
+      "max_generations": 5,
+      "stagnation_generations": 5,
+      "elitism_ratio": 0.1,
+      "speciation_threshold": 1.9344523437499999,
+      "target_species": 8,
+      "survival_threshold": 0.3,
+      "compatibility_weights": [
+        1.0,
+        1.0,
+        0.4
+      ],
+      "add_node_prob": 0.03,
+      "add_connection_prob": 0.05,
+      "weight_mutate_prob": 0.8,
+      "weight_replace_prob": 0.1,
+      "bias_mutate_prob": 0.7,
+      "disable_connection_prob": 0.01,
+      "enable_connection_prob": 0.25,
+      "weight_mutate_power": 0.2,
+      "bias_mutate_power": 0.1,
+      "weight_init_range": [
+        -1.0,
+        1.0
+      ],
+      "crossover_prob": 0.75,
+      "interspecies_mating_prob": 0.001,
+      "min_fitness_improvement": 0.001,
+      "complexity_penalty": 0.0001,
+      "num_workers": 1
+    },
+    "generations": 5
+  },
+  "parameter_analysis": {
+    "population_size": {
+      "10": {
+        "mean_fitness": -1.0,
+        "std_fitness": 0.0,
+        "count": 2
+      },
+      "20": {
+        "mean_fitness": -1.0,
+        "std_fitness": 0.0,
+        "count": 2
+      }
+    },
+    "stagnation_generations": {
+      "5": {
+        "mean_fitness": -1.0,
+        "std_fitness": 0.0,
+        "count": 4
+      }
+    },
+    "speciation_threshold": {
+      "1.9344523437499999": {
+        "mean_fitness": -1.0,
+        "std_fitness": 0.0,
+        "count": 4
+      }
+    }
+  },
+  "top_results": [
+    {
+      "config_id": "config_000_run_0",
+      "fitness": -1.0,
+      "validation_fitness": -0.9,
+      "training_time": 0.06041312217712402,
+      "neat_config": {
+        "population_size": 10,
+        "max_generations": 5,
+        "stagnation_generations": 5,
+        "elitism_ratio": 0.1,
+        "speciation_threshold": 1.9344523437499999,
+        "target_species": 8,
+        "survival_threshold": 0.3,
+        "compatibility_weights": [
+          1.0,
+          1.0,
+          0.4
+        ],
+        "add_node_prob": 0.03,
+        "add_connection_prob": 0.05,
+        "weight_mutate_prob": 0.8,
+        "weight_replace_prob": 0.1,
+        "bias_mutate_prob": 0.7,
+        "disable_connection_prob": 0.01,
+        "enable_connection_prob": 0.25,
+        "weight_mutate_power": 0.2,
+        "bias_mutate_power": 0.1,
+        "weight_init_range": [
+          -1.0,
+          1.0
+        ],
+        "crossover_prob": 0.75,
+        "interspecies_mating_prob": 0.001,
+        "min_fitness_improvement": 0.001,
+        "complexity_penalty": 0.0001,
+        "num_workers": 1
+      }
+    },
+    {
+      "config_id": "config_000_run_1",
+      "fitness": -1.0,
+      "validation_fitness": -0.9,
+      "training_time": 0.05351090431213379,
+      "neat_config": {
+        "population_size": 10,
+        "max_generations": 5,
+        "stagnation_generations": 5,
+        "elitism_ratio": 0.1,
+        "speciation_threshold": 1.9344523437499999,
+        "target_species": 8,
+        "survival_threshold": 0.3,
+        "compatibility_weights": [
+          1.0,
+          1.0,
+          0.4
+        ],
+        "add_node_prob": 0.03,
+        "add_connection_prob": 0.05,
+        "weight_mutate_prob": 0.8,
+        "weight_replace_prob": 0.1,
+        "bias_mutate_prob": 0.7,
+        "disable_connection_prob": 0.01,
+        "enable_connection_prob": 0.25,
+        "weight_mutate_power": 0.2,
+        "bias_mutate_power": 0.1,
+        "weight_init_range": [
+          -1.0,
+          1.0
+        ],
+        "crossover_prob": 0.75,
+        "interspecies_mating_prob": 0.001,
+        "min_fitness_improvement": 0.001,
+        "complexity_penalty": 0.0001,
+        "num_workers": 1
+      }
+    },
+    {
+      "config_id": "config_001_run_0",
+      "fitness": -1.0,
+      "validation_fitness": -0.9,
+      "training_time": 0.10105609893798828,
+      "neat_config": {
+        "population_size": 20,
+        "max_generations": 5,
+        "stagnation_generations": 5,
+        "elitism_ratio": 0.1,
+        "speciation_threshold": 1.9344523437499999,
+        "target_species": 8,
+        "survival_threshold": 0.3,
+        "compatibility_weights": [
+          1.0,
+          1.0,
+          0.4
+        ],
+        "add_node_prob": 0.03,
+        "add_connection_prob": 0.05,
+        "weight_mutate_prob": 0.8,
+        "weight_replace_prob": 0.1,
+        "bias_mutate_prob": 0.7,
+        "disable_connection_prob": 0.01,
+        "enable_connection_prob": 0.25,
+        "weight_mutate_power": 0.2,
+        "bias_mutate_power": 0.1,
+        "weight_init_range": [
+          -1.0,
+          1.0
+        ],
+        "crossover_prob": 0.75,
+        "interspecies_mating_prob": 0.001,
+        "min_fitness_improvement": 0.001,
+        "complexity_penalty": 0.0001,
+        "num_workers": 1
+      }
+    },
+    {
+      "config_id": "config_001_run_1",
+      "fitness": -1.0,
+      "validation_fitness": -0.9,
+      "training_time": 0.10983395576477051,
+      "neat_config": {
+        "population_size": 20,
+        "max_generations": 5,
+        "stagnation_generations": 5,
+        "elitism_ratio": 0.1,
+        "speciation_threshold": 1.9344523437499999,
+        "target_species": 8,
+        "survival_threshold": 0.3,
+        "compatibility_weights": [
+          1.0,
+          1.0,
+          0.4
+        ],
+        "add_node_prob": 0.03,
+        "add_connection_prob": 0.05,
+        "weight_mutate_prob": 0.8,
+        "weight_replace_prob": 0.1,
+        "bias_mutate_prob": 0.7,
+        "disable_connection_prob": 0.01,
+        "enable_connection_prob": 0.25,
+        "weight_mutate_power": 0.2,
+        "bias_mutate_power": 0.1,
+        "weight_init_range": [
+          -1.0,
+          1.0
+        ],
+        "crossover_prob": 0.75,
+        "interspecies_mating_prob": 0.001,
+        "min_fitness_improvement": 0.001,
+        "complexity_penalty": 0.0001,
+        "num_workers": 1
+      }
+    }
+  ],
+  "total_experiment_time_hours": 9.11337799496121e-05
+}

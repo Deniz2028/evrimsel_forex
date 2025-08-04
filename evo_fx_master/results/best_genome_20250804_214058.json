@@ -1,0 +1,151 @@
+{
+  "input_size": 10,
+  "output_size": 3,
+  "fitness": -1.0,
+  "nodes": {
+    "0": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "1": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "2": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "3": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "4": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "5": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "6": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "7": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "8": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "9": {
+      "type": "input",
+      "bias": 0.0
+    },
+    "10": {
+      "type": "output",
+      "bias": 0.0
+    },
+    "11": {
+      "type": "output",
+      "bias": 0.0
+    },
+    "12": {
+      "type": "output",
+      "bias": 0.0
+    }
+  },
+  "connections": [
+    {
+      "from": 2,
+      "to": 10,
+      "weight": -0.36181123400355064,
+      "enabled": true
+    },
+    {
+      "from": 3,
+      "to": 10,
+      "weight": 0.6063081816019211,
+      "enabled": true
+    },
+    {
+      "from": 4,
+      "to": 10,
+      "weight": -0.7035005686008822,
+      "enabled": true
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "weight": -0.7677784849662237,
+      "enabled": true
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "weight": -0.5661518650955457,
+      "enabled": true
+    },
+    {
+      "from": 0,
+      "to": 11,
+      "weight": -0.4457439404966934,
+      "enabled": true
+    },
+    {
+      "from": 1,
+      "to": 11,
+      "weight": 0.8685946246799896,
+      "enabled": true
+    },
+    {
+      "from": 3,
+      "to": 11,
+      "weight": -0.40046459918330424,
+      "enabled": true
+    },
+    {
+      "from": 9,
+      "to": 11,
+      "weight": -0.7182613647720597,
+      "enabled": true
+    },
+    {
+      "from": 0,
+      "to": 12,
+      "weight": -0.2873316172545808,
+      "enabled": true
+    },
+    {
+      "from": 1,
+      "to": 12,
+      "weight": 0.4463487252896545,
+      "enabled": true
+    },
+    {
+      "from": 3,
+      "to": 12,
+      "weight": -0.6449540061057744,
+      "enabled": true
+    },
+    {
+      "from": 4,
+      "to": 12,
+      "weight": -0.7224716894589678,
+      "enabled": true
+    },
+    {
+      "from": 5,
+      "to": 12,
+      "weight": -0.1390587818549811,
+      "enabled": true
+    },
+    {
+      "from": 6,
+      "to": 12,
+      "weight": 0.9054714872437626,
+      "enabled": true
+    }
+  ]
+}
